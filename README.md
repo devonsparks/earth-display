@@ -1,7 +1,7 @@
 # Earth Display
 
 ## Context
-This repository holds my Polymer port and enhancement of the [Stotz-Thornhill-Van Vleck-Eichin Earth Display](http://www.multicians.org/thvv/gcw.html). The Earth Display has had a long and colorful history, dating back to a first implementation in [MAD](https://en.wikipedia.org/wiki/MAD_(programming_language) on the [CTSS](https://en.wikipedia.org/wiki/Compatible_Time-Sharing_System). All of the data used to generate the land boundaries was digitized an entered by hand. Earth Display is a small, comphrensible program capturing a few powerful ideas in computer graphics; it deserves to be curated.
+This repository holds my Polymer port and enhancement of the [Stotz-Thornhill-Van Vleck-Eichin Earth Display](http://www.multicians.org/thvv/gcw.html). The Earth Display has had a long and colorful history, dating back to a first implementation in [MAD](https://en.wikipedia.org/wiki/MAD_(programming_language)) on the [CTSS](https://en.wikipedia.org/wiki/Compatible_Time-Sharing_System). All of the data used to generate the land boundaries was digitized an entered by hand. Earth Display is a small, comphrensible program capturing a few powerful ideas in computer graphics; it deserves to be curated.
 
 ## Usage
 The /src directory contains the reusable Polymer 2.0 element (earth-display.html) and an example use case (index.html). To get started quickly, place the /src directory behind a web browser and navigate to index.html. If you have Python locally installed, try this:
@@ -36,7 +36,7 @@ If you end up doing something fun with the Earth Display, drop me a line!
 
 ## Ideas for Extension
 * The `animate` behavior is primitive. We're blindly recomputing every frame. Consider caching rendered frames by (lat, lon, rot) index or passing off to a WebWorker to generate the pixel array off-screen.
-* The most interesting part of the Earth Display is the underlying data set. The digitzed coordinates represent three dimensional points, so why not make a three dimensional model? Reuse of this data in a THREE.js-based port would be a fun addition to the Earth Display evolutionary tree.
+* The most interesting part of the Earth Display is the underlying data set. The digitzed coordinates represent three dimensional points, so why not make a three dimensional model? Reuse of this data in a [THREE.js](https://threejs.org/)-based port would be a fun addition to the Earth Display evolutionary tree.
 * Right now we're only drawing land boundaries. What if we want to fill them with another color? What will it take to get reasonable performance here?
 
 
