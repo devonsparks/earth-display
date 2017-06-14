@@ -4,7 +4,7 @@
 This repository holds my Polymer port and enhancement of the [Stotz-Thornhill-Van Vleck-Eichin Earth Display](http://www.multicians.org/thvv/gcw.html). The Earth Display has a long and colorful history, dating back to a first implementation in [MAD](https://en.wikipedia.org/wiki/MAD_(programming_language)) on the [CTSS](https://en.wikipedia.org/wiki/Compatible_Time-Sharing_System). All of the data used to generate the land boundaries was digitized and entered by hand. Earth Display is a small program capturing powerful ideas in computer graphics. It deserves to be curated.
 
 ## Usage
-The /src directory contains the reusable Polymer 2.0 element (`src/earth-display.html`) and an example use case (`src/index.html`). To get started quickly, place the /src directory behind a web browser and navigate to index.html. If you have Python locally installed, try this from the project root:
+The /src directory contains the reusable Polymer 2.0 element (`src/earth-display.html`) and an example use case (`src/index.html`). To get started quickly, place the /src directory behind a web server and navigate to index.html. If you have Python locally installed, try this from the project root:
 
 ```sh
 cd src && python -m SimpleHTTPServer
