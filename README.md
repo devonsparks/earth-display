@@ -5,7 +5,10 @@ This repository holds my Polymer port and enhancement of the [Stotz-Thornhill-Va
 
 ## Usage
 The /src directory contains the reusable Polymer 2.0 element (earth-display.html) and an example use case (index.html). To get started quickly, place the /src directory behind a web browser and navigate to index.html. If you have Python locally installed, try this:
-``` cd src && python -m SimpleHTTPServer
+
+```sh
+cd src && python -m SimpleHTTPServer
+```
 
 The Earth Display element provides a number of useful properties:
 
